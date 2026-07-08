@@ -1,0 +1,39 @@
+{
+  "name": "docker-template-app",
+  "version": "1.0.0",
+  "description": "A Docker template for modern web applications",
+  "main": "app/index.html",
+  "scripts": {
+    "start": "docker-compose up",
+    "build": "docker build -t docker-template-app .",
+    "dev": "docker-compose up --build",
+    "stop": "docker-compose down",
+    "logs": "docker-compose logs -f",
+    "clean": "docker-compose down -v --rmi all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "nginx",
+    "web",
+    "template",
+    "production",
+    "devops"
+  ],
+  "author": "Project Templates",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miketorreno/devops-cloud-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miketorreno/devops-cloud-templates/issues"
+  },
+  "homepage": "https://github.com/miketorreno/devops-cloud-templates#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
