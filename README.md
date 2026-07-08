@@ -6,7 +6,7 @@ Production-ready DevOps and Cloud project templates designed to bootstrap real-w
 
 ## Purpose
 
-This repo is prepared to help you:
+This repo is prepared to help:
 
 - Start DevOps/Cloud projects faster
 - Follow industry-standard folder structures
