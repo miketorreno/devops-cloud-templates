@@ -15,14 +15,17 @@ This template helps:
 ## Structure
 
 ```text
-docker-only/
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-├── app/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+docker/
+├── static-app
+│   ├── app/
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   └── script.js
+│   ├── .dockerignore
+│   ├── compose.yaml
+│   ├── Dockerfile
+│   ├── nginx.conf
+│   └── package.json
 └── README.md
 ```
 
