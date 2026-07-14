@@ -20,7 +20,7 @@
     "production",
     "devops"
   ],
-  "author": "Project Templates",
+  "author": "DevOps Cloud Templates",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
