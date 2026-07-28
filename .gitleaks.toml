@@ -1,0 +1,22 @@
+title = "gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allowlisted placeholder text for example files"
+paths = [
+    '''templates\/.*\/secret.yaml''',
+    '''templates\/.*\/secret.yaml.example''',
+    '''\.env.example''',
+    '''terraform.tfvars.example''',
+]
+
+regexes = [
+    '''REPLACE_WITH_.*''',
+    '''your-.*''',
+    '''placeholder''',
+    '''example''',
+    '''changeme''',
+    '''CHANGE_ME''',
+]
