@@ -2,6 +2,8 @@
 
 Production-ready DevOps and Cloud project templates designed to bootstrap real-world projects with best practices.
 
+![](public/devops-cloud-templates.png)
+
 ---
 
 ## Purpose
